@@ -1,11 +1,12 @@
 <meta>
+    <oop>true</oop>
     <script src='main.lua' type='shared'/>
 
     <!-- Element class -->
     <script src='shared/Element.lua' type='shared'/>
 
     <!-- Player class-->
-    <script src='client/Player.lua' type='shared'/>
+    <script src='client/Player.lua' type='client'/>
 
     <!-- test -->
     <script src='test/main.lua' type='client'/>
